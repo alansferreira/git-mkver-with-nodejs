@@ -42,10 +42,10 @@ git commit -m "fix: this is an fix commit" --allow-empty
 # Bumping new version
 git mkver patch 
 # Use NPM to sync 'package.json' version with new '.semver' value
-npm version $(cat .semver)
+npm version $(cat .semver) --no-commit-hooks --no-git-tag-version
 
 # Commit Bumped files
-git add .semver pom.xml
+git add .semver package.json
 git commit -m "build: bumping to $(cat .semver)"
 git mkver tag
 
