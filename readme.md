@@ -11,8 +11,8 @@ This is an sample project that demonstrates how to use the conventional commits 
 
 ## Get Started
 
-### 1. Install Git CLI and Git-MkVer CLI.
-### 2. Install Maven CLI or use an embedded Maven Wrapper CLI
+### 1. Install [Git CLI](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Git-MkVer CLI](https://idc101.github.io/git-mkver/installation).
+### 2. Install [NodeJs + Npm](https://nodejs.org/en/download/)
 ### 3. Clone or initialize local git repository.
 
 
