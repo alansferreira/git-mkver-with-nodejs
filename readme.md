@@ -17,13 +17,13 @@ This is an sample project that demonstrates how to use the conventional commits 
 
 
 ```bash
-git clone git@github.com:alansferreira/git-mkver-with-maven.git 
-cd git-mkver-with-maven
+git clone git@github.com:alansferreira/git-mkver-with-nodejs.git 
+cd git-mkver-with-nodejs
 ```
 Or
 
 ```bash
-mkdir git-mkver-with-maven
+mkdir git-mkver-with-nodejs
 git init
 ```
 ### 
