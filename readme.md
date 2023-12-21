@@ -46,7 +46,7 @@ npm version $(cat .semver) --no-commit-hooks --no-git-tag-version
 
 # Commit Bumped files
 git add .semver package.json
-git commit -m "build: bumping to $(cat .semver)"
+git commit -m "build: [skip-ci] bumping to $(cat .semver)"
 git mkver tag
 
 # Push your(s) tag(s) to remote
